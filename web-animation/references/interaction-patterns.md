@@ -4,7 +4,7 @@ Gesture-driven animations: hover, tap, drag, cursor-follow.
 
 ## Hover effects
 
-### Image reveal on hover (Halston discipline cards)
+### Image reveal on hover
 ```css
 .card-image {
   clip-path: inset(100% 0 0 0);           /* hidden: clipped from bottom */

@@ -40,7 +40,7 @@ License                    MIT             Free, all plugins†  N/A         N/A
 
 ### Marketing site with scroll choreography → GSAP
 - Pinned sections with timeline animations
-- Horizontal scroll galleries (Halston-style)
+- Horizontal scroll galleries
 - Text reveal with SplitText, SVG path drawing
 - Multi-element orchestrated sequences
 

@@ -266,7 +266,7 @@ Ships in Chrome/Edge/Safari; in Firefox it's implemented but behind the `layout.
 
 ## Horizontal pin scroll {#horizontal-pin}
 
-Section is pinned (fixed) while content scrolls horizontally. The Halston/Awwwards pattern.
+Section is pinned (fixed) while content scrolls horizontally. A common pattern on award-winning agency and portfolio sites.
 
 ### GSAP — production standard
 ```tsx

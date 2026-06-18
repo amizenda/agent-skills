@@ -1,6 +1,6 @@
 ---
 name: web-animation
-description: Production-ready web animation patterns — scroll-linked, scroll-triggered, entrance, parallax, horizontal pin, gesture, and layout animations. Use this skill whenever the user wants to add motion to a page, build scroll animations, create a landing page with effects, implement parallax or pin+scrub sections, compare animation libraries (Motion/GSAP/CSS), debug janky animations, or optimize animation performance. Also trigger when the user references sites like Halston, Awwwards, or asks "how do they do that scroll effect." Covers vanilla JS, Motion (Framer Motion), GSAP ScrollTrigger, and CSS scroll-timeline. Includes a pattern catalog with copy-paste code, a decision tree for picking techniques, and a performance checklist.
+description: Production-ready web animation patterns — scroll-linked, scroll-triggered, entrance, parallax, horizontal pin, gesture, and layout animations. Use this skill whenever the user wants to add motion to a page, build scroll animations, create a landing page with effects, implement parallax or pin+scrub sections, compare animation libraries (Motion/GSAP/CSS), debug janky animations, or optimize animation performance. Also trigger when the user references award-winning sites like Awwwards entries, or asks "how do they do that scroll effect." Covers vanilla JS, Motion (Framer Motion), GSAP ScrollTrigger, and CSS scroll-timeline. Includes a pattern catalog with copy-paste code, a decision tree for picking techniques, and a performance checklist.
 ---
 
 # Web Animation
@@ -158,7 +158,7 @@ new IntersectionObserver((entries) => {
 }, { threshold: 0.2 }).observe(element)
 ```
 
-### Horizontal scroll pin (Halston-style)
+### Horizontal scroll pin
 ```js
 // GSAP — the gold standard for this pattern
 gsap.to(".track", {

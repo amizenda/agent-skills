@@ -187,6 +187,12 @@ Download file `.skill` và:
 - [Awwwards](https://www.awwwards.com/) — award-winning animation patterns
 - [MDN Web Animations](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) — native browser APIs
 
+## Tình trạng thư viện (đã xác minh tháng 6/2026)
+
+- **GSAP** — miễn phí 100% từ tháng 4/2025, bao gồm tất cả plugin Club trước đây (SplitText, MorphSVG, DrawSVG, ScrollSmoother...) và cả commercial use. Được Webflow bảo trợ.
+- **CSS scroll-timeline** (`animation-timeline: scroll()`) — hỗ trợ trên Chrome/Edge 115+ và Safari 26+; Firefox cần bật flag. Dùng `@supports` guard và `animation-duration: 1ms` (cho Firefox) trong các ví dụ parallax.
+- **Motion** — package hiện tại là `motion` với entry point `motion/react` (trước đây là Framer Motion).
+
 ---
 
 *Built for builders. Ship with motion.*

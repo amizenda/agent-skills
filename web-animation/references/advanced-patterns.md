@@ -1,6 +1,6 @@
 # Advanced UI Animation Patterns
 
-Patterns extracted from premium Webflow templates (Harroway, Halston, Metrik Studio). Accordion, marquee, masonry grid, sticky nav, split-layout reveals, and expandable cards.
+Patterns commonly found on premium agency and product sites: accordion, marquee, masonry grid, sticky nav, split-layout reveals, and expandable cards.
 
 ## Table of contents
 1. [Accordion expand/collapse](#accordion)
@@ -102,7 +102,7 @@ function Accordion({ items }) {
 
 ## Infinite marquee scroll {#marquee}
 
-Continuous horizontal scrolling text/logos. Used by Harroway for "Solutions" keyword display and client logos.
+Continuous horizontal scrolling text/logos. Common for keyword displays and client logo strips.
 
 ### CSS-only (preferred — zero JS)
 ```html
@@ -178,7 +178,7 @@ Continuous horizontal scrolling text/logos. Used by Harroway for "Solutions" key
 
 ## Masonry staggered image grid {#masonry-grid}
 
-Images arranged at different sizes and offsets, revealing with staggered timing. Used by Harroway in the process section (4 images, staggered heights).
+Images arranged at different sizes and offsets, revealing with staggered timing. Common in process/about sections with 3-5 images.
 
 ### CSS grid with offset reveals
 ```html
@@ -389,7 +389,7 @@ gsap.from('.split-image img', {
 
 ## Expandable team/profile cards {#expandable-cards}
 
-Card expands on click to reveal bio, social links, and full portrait. Used by Harroway for team section.
+Card expands on click to reveal bio, social links, and full portrait. Common pattern for team/about sections.
 
 ### Motion layout animation
 ```tsx
@@ -434,7 +434,7 @@ function TeamCard({ member }) {
 
 ## Solution cards with hover image {#solution-cards}
 
-List of services/solutions where hovering reveals a large preview image. Used by Harroway for solutions section.
+List of services/solutions where hovering reveals a large preview image. Common in agency and consultancy service lists.
 
 ### Implementation
 ```html
